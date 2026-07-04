@@ -73,7 +73,7 @@ Os dados do pedido que serão salvos na base de dados são: CPF do cliente, ende
 
 ![alt text](/img/image-11.png)
 
-Se informar um CPF que não foi cadastrado na base, a mensagem retornada será: 404 Not Found.
+Se informar um CPF que não foi cadastrado na base, não será possível adicionar um pedido.
 
 ![alt text](/img/image-12.png)
 
