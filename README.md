@@ -57,33 +57,33 @@ Uma vez feito o POST do cliente novo, recebemos a resposta com o código 200 e o
 
 Se o cliente já existir na base de dados, o servidor retornará uma mensagem e não será possível cadastrar o cliente novamente:
 
-![alt text](image-7.png)
+![alt text](/img/image-7.png)
 
 A tabela de "produtos" contém alguns produtos já cadastrados. O usuário não tem a opção de adicionar novos produtos à base, mas pode consultar todos os produtos disponíveis.
 
 Para consultar os produtos na base de dados, clicar em "GET /produtos" e depois em "Try it out". Nesse caso, não será necessário preencher nenhum campo.
 
-![alt text](image-9.png)
+![alt text](/img/image-9.png)
 
 Para fazer um pedido, clicar na opção "POST /pedidos" e depois em "Try it out". Para adicionar um pedido, o cliente tem que estar cadastrado na base. Se não estiver cadastrado, não será possível adicionar um pedido.
 
-![alt text](image-10.png)
+![alt text](/img/image-10.png)
 
 Os dados do pedido que serão salvos na base de dados são: CPF do cliente, endereço de entrega, preço final e data de inserção do pedido.
 
-![alt text](image-11.png)
+![alt text](/img/image-11.png)
 
 Se informar um CPF que não foi cadastrado na base, a mensagem retornada será: 404 Not Found.
 
-![alt text](image-12.png)
+![alt text](/img/image-12.png)
 
 Finalmente, para consultar os pedidos feitos pelo usuário, utilizar o "GET /pedidos/" e informar o CPF do cliente. 
 
-![alt text](image-13.png)
+![alt text](/img/image-13.png)
 
 Logo depois de executar, será possível ver a resposta com o código 200 e a lista de pedidos feitos pelo cliente com os respectivos preços, datas de inserção e endereços de entrega.
 
-![alt text](image-14.png)
+![alt text](/img/image-14.png)
 
 
 
