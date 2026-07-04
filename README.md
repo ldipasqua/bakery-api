@@ -21,7 +21,7 @@ Uma vez criado um ambiente, para ativá-lo, execute o comando:
 ```bash
 (base)$ conda activate env
 ```
-![alt text](img\image-1.png)
+<img src="image-1.png" alt="image1">
 
 Automáticamente ficará em andamento o ambiente "env". Para instalar as dependências descritas no arquivo 'requirements.txt' do projeto execute o comando:
 
