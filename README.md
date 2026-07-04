@@ -39,21 +39,21 @@ Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para ve
 
 Fazer click em "Swagger UI" para acessar a documentação da API.
 
-![alt text](image-2.png)
+![alt text](/img/image-2.png)
 
 Na API será possível ver as diferentes requisições que podem ser feitas:
 
-![alt text](image-3.png)
+![alt text](/img/image-3.png)
 
 Para adicionar um novo cliente, clicar na opção "POST /clientes", depois clicar em "Try it out" e, em seguida, preencher os campos com os dados do cliente e executar:
 
-![alt text](image-4.png)
+![alt text](/img/image-4.png)
 
-![alt text](image-5.png)
+![alt text](/img/image-5.png)
 
 Uma vez feito o POST do cliente novo, recebemos a resposta com o código 200 e os dados do cliente.
 
-![alt text](image-6.png)
+![alt text](/img/image-6.png)
 
 Se o cliente já existir na base de dados, o servidor retornará uma mensagem e não será possível cadastrar o cliente novamente:
 
